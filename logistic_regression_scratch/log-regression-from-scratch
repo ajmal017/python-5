@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 12 11:56:29 2020
+
+@author: maximilianstaebler
+"""
+
+import numpy as np
+import seaborn as sns
+import sklearn.datasets as sd
+
+# =============================================================================
+# Create a dataset
+# =============================================================================
+
+data, labels = sd.make_blobs(5000, 2, 2, cluster_std=2.2, random_state=7) 
+
+# Plot the data
+sns.scatterplot(data[:, 0], data[:, 1], hue=labels)
+
+# =============================================================================
+# Logistic regression from scratch
+# =============================================================================
+
+def sigmoid(scores):
+    return(1 / (1 + np.exp(-scores)))
+
+def logistic_regression(features, target, num_steps, learning_rate):
+    
+    # Taking the feature data and append a row with
+    # an constant intercept of 1. First we create an array with
+    # the same shape (length) as the feature array. Than we append 
+    # the above mentioned row.
+    intercept = np.ones((features.shape[0], 1))
+    features = np.hstack((intercept, features))
+    
+    # Initialize a weights-array - all weights are zero.
+    # Note that shape[1] uses the same data as above but the 
+    # intercept vector is not [0]
+    weights = np.zeros(features.shape[1])
+    
+    
+    step_10 = num_steps / 10
+    for step in range(num_steps):
+        
+        # Calculate the scores and predict a certain class
+        scores = np.dot(features, weights)
+        predictions = sigmoid(scores)
+
+        # clalculate the error
+        error = target - predictions
+        
+        # backpropagate
+        gradient = np.dot(features.T, error)
+        
+        # update the weights
+        weights += learning_rate * gradient
+        
+        # give an update of the current state   
+        if step % step_10 == 0:
+            print('{}% done.'.format((step/num_steps) * 100))
+        
+    return(weights)
+
+weights_scratch = logistic_regression(data, \
+                              labels, \
+                              num_steps = 100000, \
+                              learning_rate = 5e-5)
+
+# =============================================================================
+# sklearn approach
+# =============================================================================
+
+from sklearn.linear_model import LogisticRegression
+
+clf = LogisticRegression(fit_intercept=True, C = 1e15)
+clf.fit(data, labels)
+
+# =============================================================================
+# Compare results
+# =============================================================================
+
+print()
+print('#'*10)
+print()
+print('Own Log-Reg Function parameters:')
+print(weights_scratch)
+print()
+print('#'*10)
+print()
+print('Sklearn results:')
+print(clf.intercept_, clf.coef_)
+
+# =============================================================================
+# Accuracy - Predict the given data and compare it with the original data
+# =============================================================================
+
+data_test = np.hstack((np.ones((data.shape[0], 1)),
+                                 data))
+final_scores = np.dot(data_test, weights_scratch)
+preds = np.round(sigmoid(final_scores))
+
+print()
+print('#'*10)
+print()
+print('Accuracy from scratch: {0}'.format((preds == labels).sum().astype(float) / len(preds)))
+print('Accuracy from sk-learn: {0}'.format(clf.score(data, labels)))

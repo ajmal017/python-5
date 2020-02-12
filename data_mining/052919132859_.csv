@@ -1,0 +1,2 @@
+round_epochs,val_loss,loss,activation,optimizer,losses,hidden_layers,batch_size,epochs
+20,0.006646046298349233,0.006192682544945202,relu,Adam,mean_squared_error,3,20,20
