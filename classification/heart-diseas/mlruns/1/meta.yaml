@@ -1,0 +1,4 @@
+artifact_location: file:///Users/maximilianstaebler/Library/Mobile%20Documents/com~apple~CloudDocs/code/python/classification/heart-diseas/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: classification

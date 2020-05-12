@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/maximilianstaebler/Library/Mobile%20Documents/com~apple~CloudDocs/code/python/classification/heart-diseas/mlruns/1/d4bae8ffcc6f467f8204a71a8d61940b/artifacts
+end_time: 1589228462049
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: d4bae8ffcc6f467f8204a71a8d61940b
+run_uuid: d4bae8ffcc6f467f8204a71a8d61940b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1589227730003
+status: 3
+tags: []
+user_id: maximilianstaebler
