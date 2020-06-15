@@ -1,0 +1,23 @@
+WKN;Wert;Branche;Land;;Aktueller Kurs;Gewinn pro Aktie (€);KGV;Dividendenrendite (%);Marktkapitalisierung (Mio. €);EBITDA (Mio. €);Ergebnis nach Steuern (Mio. €);Barreserve (Mio. €);Verbindlichkeiten (Mio. €);Rückstellungen (Mio. €);Zinsaufwand (Mio. €);Verschuldungsgrad
+823212;Lufthansa;Fluggesellschaften;Deutschland;Deutschland;10,47 EUR;2,55;6,43;0,00;7.847,16;4.913,00;1.245,00;1.415,00;32.512,00;7.943,00;394,00;315,94
+A1W97M;AMERICAN AIRLINES GR;Fluggesellschaften;USA;USA;16,74 USD;3,34;7,54;1,39;10.804,71;4.875,85;1.686,00;280,00;60.113,00;2.138,00;1.095,00;-50.943,22
+A1C6TV;UNITED AIRLINES HOLD;Fluggesellschaften;USA;USA;39,66 USD;10,18;7,60;0,00;19.611,28;0,00;0,00;0,00;0,00;0,00;0,00;
+A0MQV8;DELTA AIR LINES INC.;Fluggesellschaften;USA;USA;30,43 USD;6,42;8,01;2,55;33.275,37;0,00;0,00;0,00;0,00;0,00;0,00;
+A12EGF;AIR CANADA INC.;Fluggesellschaften;Kanada;Kanada;14,30 USD;3,56;8,91;;8.416,94;0,00;0,00;0,00;0,00;0,00;0,00;
+A1JTC1;Easyjet;Fluggesellschaften;Großbritannien;Großbritannien;805,00 GBp;0,99;16,10;3,07;6.333,89;480,86;349,00;1.285,00;5.178,00;589,00;0,00;173,46
+862837;SOUTHWEST AIRLINES C;Fluggesellschaften;USA;USA;35,87 USD;3,75;12,64;1,27;24.993,69;0,00;0,00;0,00;0,00;0,00;0,00;
+A1H6AJ;INTERNATIONAL CONSOL;Fluggesellschaften;Spanien;Spanien;275,50 GBp;0,86;8,10;4,50;6.972,11;4.386,00;1.715,00;4.062,00;28.832,00;3.375,00;0,00;422,19
+A1401Z;RYANAIR HOLDINGS;Fluggesellschaften;Irland;Irland;11,24 EUR;0,48;30,44;0,00;16.129,35;0,00;0,00;0,00;0,00;0,00;0,00;
+A1402T;QANTAS AIRWAYS LTD.;Fluggesellschaften;Australien;Australien;15,47 USD;0,33;66,31;0,69;6.497,47;0,00;0,00;0,00;0,00;0,00;0,00;
+869843;ALASKA AIR GROUP INC;Fluggesellschaften;USA;USA;38,47 USD;5,44;10,94;2,05;7.336,18;0,00;0,00;0,00;0,00;0,00;0,00;
+870986;CATHAY PACIFIC AIRWA;Fluggesellschaften;Hong Kong;Hong Kong;0,95 EUR;0,04;26,79;1,56;5.143,50;0,00;0,00;0,00;0,00;0,00;0,00;
+A0J2WM;AÉROPORTS DE PARIS;Fluggesellschaften;Frankreich;Frankreich;98,95 EUR;5,95;29,59;1,92;17.426,96;0,00;0,00;0,00;0,00;0,00;0,00;
+855181;JAPAN AIRLINES CORP;Fluggesellschaften;Japan;Japan;22,00 USD;;21,82;1,61;9.560,26;0,00;0,00;0,00;0,00;0,00;0,00;
+A1H60G;INTERNAT. CONS. AIRL;Fluggesellschaften;Spanien;Spanien;7,02 USD;0,86;16,85;2,05;6.972,11;4.386,00;1.715,00;4.062,00;28.832,00;3.375,00;0,00;422,19
+A0LEXG;SPIRIT AEROSYSTEMS H;Fluggesellschaften;USA;USA;28,18 USD;4,45;14,40;0,66;6.637,51;0,00;0,00;0,00;0,00;0,00;0,00;
+896435;Qantas;Fluggesellschaften;Australien;Australien;2,74 EUR;0,33;13,06;3,51;6.497,47;0,00;0,00;0,00;0,00;0,00;0,00;
+A1XAXY;EASYJET PLC REG.SHS;Fluggesellschaften;Großbritannien;Großbritannien;9,85 USD;0,99;16,44;3,00;6.333,89;480,86;349,00;1.285,00;5.178,00;589,00;0,00;173,46
+;AEROPORTS DE PARIS U;Fluggesellschaften;Frankreich;Frankreich;18,80 USD;5,95;2,75;20,66;17.426,96;0,00;0,00;0,00;0,00;0,00;0,00;
+861920;ANA HOLDINGS INC.;Fluggesellschaften;Japan;Japan;22,00 EUR;0,67;44,06;0,00;10.407,69;0,00;0,00;0,00;0,00;0,00;0,00;
+A111EQ;AUCKLAND INTL AIRPOR;Fluggesellschaften;Neuseeland;Neuseeland;4,52 USD;0,24;20,98;2,44;6.338,37;0,00;0,00;0,00;0,00;0,00;0,00;
+A2PWS8;JAPAN AIRLINES CO. L;Fluggesellschaften;Japan;Japan;10,37 USD;;10,69;3,30;9.560,26;0,00;0,00;0,00;0,00;0,00;0,00;
